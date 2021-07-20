@@ -19,7 +19,6 @@ import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-
 public class user_data extends AppCompatActivity {
 
     ProgressDialog progressDialog;

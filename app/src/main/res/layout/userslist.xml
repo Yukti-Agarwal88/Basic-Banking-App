@@ -22,7 +22,7 @@
             android:text="User Name"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="#00b2ff"
+            android:textColor="@color/colorPrimary"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="10dp"/>
 
@@ -44,7 +44,7 @@
                 android:id="@+id/userphonenumber"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Phone numebr"
+                android:text="Phone number"
                 android:textSize="15dp"/>
         </LinearLayout>
 
@@ -62,7 +62,7 @@
                 android:text="Rs."
                 android:textSize="15sp"
                 android:textStyle="bold"
-                android:textColor="#00b2ff"/>
+                android:textColor="@color/colorPrimary"/>
 
             <TextView
                 android:id="@+id/balance"
@@ -71,7 +71,7 @@
                 android:text="balance"
                 android:textSize="15sp"
                 android:textStyle="bold"
-                android:textColor="#00b2ff"/>
+                android:textColor="@color/colorPrimary"/>
             <TextView
                 android:id="@+id/rupeeslash"
                 android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
                 android:text=" /-"
                 android:textSize="15sp"
                 android:textStyle="bold"
-                android:textColor="#00b2ff"/>
+                android:textColor="@color/colorPrimary"/>
         </LinearLayout>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
